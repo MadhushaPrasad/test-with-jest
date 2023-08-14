@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/MadhushaPrasad/test-with-jest.git",
   "author": "MadhushaPrasad <madushaprasad21@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
 }
