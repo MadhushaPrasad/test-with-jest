@@ -1,18 +1,8 @@
-class User {
-  constructor(details) {
-    const { firstName, lastName } = details;
-    this.firstName = firstName;
-    this.lastName = lastName;
-  }
-
-  get name() {
-    return `${this.firstName} ${this.lastName}`;
-  }
-}
+import User from '../user';
 
 describe('User', () => {
   test('name return full name', () => {
-    const user = new User({ firstName: 'Madhusha', lastName: 'Prasad' });
-    expect(user.name).toBe('Madhusha Prasad');
+    let userDetails = new User({ firstName: 'Madhusha', lastName: 'Prasad' });
+    expect(userDetails.name).toBe('Madhusha Prasad');
   });
 });
