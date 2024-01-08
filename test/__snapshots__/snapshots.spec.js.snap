@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User matches the snapshot: {
+                "name": "Madhusha Prasad",
+                "age": 25,
+                "job": "Software Engineer",
+                "address": {
+                        "city": "Colombo",
+                        "country": "Sri Lanka"
+                }
+        } 1`] = `"{"name":"Madhusha Prasad","age":25,"job":"Software Engineer","address":{"city":"Colombo","country":"Sri Lanka"}}"`;
